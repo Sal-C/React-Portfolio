@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar';
+import Bio from './components/Bio';
 import Footer from './components/Footer';
 
 export default function BasicExample() {
@@ -37,6 +38,7 @@ export default function BasicExample() {
 function Home() {
   return (
     <div>
+      <Bio />
     </div>
   );
 }
@@ -44,6 +46,7 @@ function Home() {
 function BioPage() {
   return (
     <div>
+      <Bio />
     </div>
   );
 }
