@@ -7,6 +7,7 @@ import {
 import './App.css';
 import Navbar from './components/Navbar';
 import Bio from './components/Bio';
+import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 
 export default function BasicExample() {
@@ -54,6 +55,7 @@ function BioPage() {
 function PortfolioPage() {
   return (
     <div>
+      <Portfolio />
     </div>
   );
 }
