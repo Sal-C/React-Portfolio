@@ -5,7 +5,7 @@ class Navbar extends Component {
     return (
         <div className="navbar-fixed" id="navbar">
             <nav className="nav-color" role="navigation">
-                <a id="logo-container" href="./index.html" className="brand-logo">Salvador Chavez</a>
+                <a id="logo-container" href="/" className="brand-logo">Salvador Chavez</a>
                 <ul className="right hide-on-med-and-down">
                     <li><a href="/bio">Home</a></li>
                     <li><a href="/portfolio">Portfolio</a></li>
