@@ -8,6 +8,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Bio from './components/Bio';
 import Portfolio from './components/Portfolio';
+import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 
 export default function BasicExample() {
@@ -63,6 +64,7 @@ function PortfolioPage() {
 function ContactPage() {
   return (
     <div>
+      <ContactForm />
     </div>
   );
 }
