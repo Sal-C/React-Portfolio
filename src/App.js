@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 export default function BasicExample() {
   return (
@@ -26,6 +27,7 @@ export default function BasicExample() {
             <ContactPage />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
