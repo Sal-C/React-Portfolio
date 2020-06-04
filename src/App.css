@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+    font-family: OpenMine;
+    src: url(./assets/font/OpenMine.ttf);
   }
+body {
+    background-color: rgb(26, 26, 26);
+    font-family: OpenMine;
+    color: white;
+    font-size: 200%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#bio{
+  margin-top: 100px;
+  margin-bottom: 78px;
+}
+.title{
+  border-bottom: 2px solid #9c27b0;
+}
+.bio{
+  line-height: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-form{
+  margin-top: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#portfolio{
+  margin-top: 100px;
+}
+
+.submit-button{
+  background-color: #9c27b0;
+}
+
+.nav-color{
+  background-color: rgb(26, 26, 26);
+}
+
+.page-footer {
+  margin-top: 100px;
+  line-height: 20px;
+  background-color: rgb(26, 26, 26);
+}
+
+#card-link{
+  line-height: 15px;
+  background-color: rgb(26, 26, 26);
+}
+#project-title{
+  line-height: 25px;
+  font-size: 140%;
 }
