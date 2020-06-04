@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import Bio from './components/Bio';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/ContactForm';
+import ImgLink from './components/ImageLink';
 import Footer from './components/Footer';
 
 export default function BasicExample() {
@@ -65,6 +66,7 @@ function ContactPage() {
   return (
     <div>
       <ContactForm />
+      <ImgLink />
     </div>
   );
 }
